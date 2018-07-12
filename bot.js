@@ -20,8 +20,8 @@ client.on('message', message => {
   
   if (message.content.includes("i")) {
   message.channel.send("REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
-  }
-  
+ }
+
  
 });
 
