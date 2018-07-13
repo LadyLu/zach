@@ -26,12 +26,16 @@ client.on('message', message => {
   message.channel.send("GO ASK THE MIRROR!");
   } else
       
-  if (message.content.includes("Serpintine")) {
+  if (message.content.includes("Serpiente")) {
   message.channel.send("AH-OI GOTTA GO, MATE.");
   }
     
   if (message.content.includes("I love you Zach")) {
   message.channel.send("Bloody hell, I love ya too.");
+  }
+    
+  if (message.content.includes("Do you like her?")) {
+  message.channel.send("<a:angershake:459968779074535425> REEEEEEEEEEEEEEEEEEEEEEEEEEE");
   }
 
  
