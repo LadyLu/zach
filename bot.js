@@ -28,14 +28,18 @@ client.on('message', message => {
       
   if (message.content.includes("Serpiente")) {
   message.channel.send("AH-OI GOTTA GO, MATE.");
-  }
+  } else
     
   if (message.content.includes("I love you Zach")) {
   message.channel.send("Bloody hell, I love ya too.");
-  }
+  } else
     
   if (message.content.includes("Do you like her?")) {
   message.channel.send("<a:angershake:459968779074535425> REEEEEEEEEEEEEEEEEEEEEEEEEEE");
+  } else
+    
+  if (message.content.includes("Choco")) {
+  message.channel.send("Sweet as a bite of fairy floss");
   }
 
  
